@@ -1,0 +1,31 @@
+#logo,
+#maintext,
+#footer,
+.picture,
+.project {
+  margin: 2%; 
+}
+#maintext {
+  float: left;
+  width: 80%;   
+}
+.project {
+  float: right;
+  width: 68%;    /* 340px ÷ 538px = .63197026 */
+    height: 100px;   
+}
+.picture {
+  float: left;
+  width: 24%;  /* 158px ÷ 538px = .293680297 */
+  height: 100px;
+}
+#logo img{
+	width: 20%;
+}
+.picture img{
+	width: 27%;
+}
+#footer {
+  float: left;
+  width: 80%;   
+}
