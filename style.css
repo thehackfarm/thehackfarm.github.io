@@ -4,6 +4,7 @@ body{
 #logo,
 #maintext,
 #footer,
+#projecttext,
 .picture,
 .project {
   margin: 2%; 
@@ -13,7 +14,11 @@ body{
   width: 80%;
   font-family: 'PT Sans Narrow', sans-serif;  
 }
-
+#projecttext {
+  float: left;
+  width: 80%;
+  font-family: 'PT Sans Narrow', sans-serif;  
+}
 .project {
   float: left;
   width: 62%;    /* 340px ÷ 538px = .63197026 */
